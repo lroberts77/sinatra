@@ -13,5 +13,6 @@ get '/' do
   end
 
   get '/cat' do
+    @rand_name = ["amigo","mendoza","william"].sample
    erb(:index)
     end
