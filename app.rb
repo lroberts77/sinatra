@@ -13,8 +13,5 @@ get '/' do
   end
 
   get '/cat' do
-  "<div style='border: 4px dashed black'>
-    <img src='http://bit.ly/1eze8aE' height='555'>
-    <h2>My cat pedro</h2>
-  </div>"
-  end
+   erb(:index)
+    end
