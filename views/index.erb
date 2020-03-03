@@ -1,6 +1,6 @@
-<%# require 'sinatra' %>
+require 'sinatra'
 
   <div style='border: 4px dashed black'>
     <img src='http://bit.ly/1eze8aE' height='555'>
-    <h1>My cat pedro <%=["amigo","mendoza","william"].sample %></h1>
+    <h1>My cat pedro <%= @rand_name %></h1>
   </div>
